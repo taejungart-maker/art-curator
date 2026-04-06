@@ -1,3 +1,5 @@
+const base = import.meta.env.BASE_URL;
+
 export const tags = [
   "가을", "겨울", "그녀에게", "그래픽디자인", "그에게", "꽃",
   "내츄럴", "대형액자", "독점", "동물", "드로잉", "로맨틱", "명화",
@@ -20,11 +22,11 @@ export const artworks = [
     year: "2023",
     edition: "Limited Edition 3/50",
     category: "Fine Art",
-    image: "/img/12.jpg",
+    image: base + "img/12.jpg",
     tags: ["추상화", "모던", "대형액자", "독점"],
-    thumbnails: ["/img/13.jpg", "/img/15.jpg", "/img/16.jpg"],
-    description: `"형태의 침묵 II"는 혼돈과 정적 사이의 위태로운 균형을 탐구합니다. 엘레나 보스는 절제된 색채를 사용하여 매체의 물리적 질감을 강조하며, 관객이 빛과 그림자의 미묘한 상호작용 속에서 평온함을 찾도록 초대합니다. 각 획은 시간적 공간 속에 존재하는 추상적 사고의 영속성에 대한 명상입니다.`,
-    descriptionExtra: `보스의 베를린 레지던시 기간 중 제작된 이 작품은 겨울의 첫눈에 부드러워진 도시의 브루탈리즘 건축물에서 영감을 받았습니다. 금색 포인트는 황량한 환경 속에서 발견된 "탄력의 미광"을 상징합니다.`,
+    thumbnails: [base + "img/13.jpg", base + "img/15.jpg", base + "img/16.jpg"],
+    description: '"형태의 침묵 II"는 혼돈과 정적 사이의 위태로운 균형을 탐구합니다. 엘레나 보스는 절제된 색채를 사용하여 매체의 물리적 질감을 강조하며, 관객이 빛과 그림자의 미묘한 상호작용 속에서 평온함을 찾도록 초대합니다. 각 획은 시간적 공간 속에 존재하는 추상적 사고의 영속성에 대한 명상입니다.',
+    descriptionExtra: '보스의 베를린 레지던시 기간 중 제작된 이 작품은 겨울의 첫눈에 부드러워진 도시의 브루탈리즘 건축물에서 영감을 받았습니다. 금색 포인트는 황량한 환경 속에서 발견된 "탄력의 미광"을 상징합니다.',
   },
   {
     id: 2,
@@ -34,7 +36,7 @@ export const artworks = [
     priceKRW: "185,000",
     currency: "₩",
     category: "Fine Art",
-    image: "/img/2.jpg",
+    image: base + "img/2.jpg",
     tags: ["명화", "모던", "풍경화", "여름"],
   },
   {
@@ -45,7 +47,7 @@ export const artworks = [
     priceKRW: "240,000",
     currency: "₩",
     category: "Fine Art",
-    image: "/img/3.jpg",
+    image: base + "img/3.jpg",
     tags: ["추상화", "모던", "드로잉"],
   },
   {
@@ -56,7 +58,7 @@ export const artworks = [
     priceKRW: "155,000",
     currency: "₩",
     category: "Fine Art",
-    image: "/img/4.jpg",
+    image: base + "img/4.jpg",
     tags: ["팝아트", "언더그라운드", "일러스트", "명화"],
   },
   {
@@ -67,7 +69,7 @@ export const artworks = [
     priceKRW: "89,000",
     currency: "₩",
     category: "Graphic Design",
-    image: "/img/5.jpg",
+    image: base + "img/5.jpg",
     tags: ["바우하우스", "전시포스터", "그래픽디자인", "빈티지"],
   },
   {
@@ -78,7 +80,7 @@ export const artworks = [
     priceKRW: "120,000",
     currency: "₩",
     category: "Fine Art",
-    image: "/img/13.jpg",
+    image: base + "img/13.jpg",
     tags: ["명화", "인물화", "모던", "드로잉"],
   },
   {
@@ -89,7 +91,7 @@ export const artworks = [
     priceKRW: "195,000",
     currency: "₩",
     category: "Fine Art",
-    image: "/img/15.jpg",
+    image: base + "img/15.jpg",
     tags: ["추상화", "모던", "명화", "대형액자"],
   },
   {
@@ -100,7 +102,7 @@ export const artworks = [
     priceKRW: "260,000",
     currency: "₩",
     category: "Fine Art",
-    image: "/img/16.jpg",
+    image: base + "img/16.jpg",
     tags: ["추상화", "모던", "명화", "북유럽"],
   },
   {
@@ -111,7 +113,7 @@ export const artworks = [
     priceKRW: "340,000",
     currency: "₩",
     category: "Fine Art",
-    image: "/img/12.jpg",
+    image: base + "img/12.jpg",
     tags: ["추상화", "명화", "모던"],
   },
 ];

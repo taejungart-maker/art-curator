@@ -175,7 +175,7 @@ export default function ArtworkDetail() {
         <div className="flex space-x-12 overflow-x-auto pb-4">
           <div className="flex-shrink-0 flex items-center space-x-4">
             <div className="w-16 h-16 bg-white p-1">
-              <img className="w-full h-full object-cover" src="/img/17.jpg" alt="Renaissance Modern" />
+              <img className="w-full h-full object-cover" src={`${import.meta.env.BASE_URL}img/17.jpg`} alt="Renaissance Modern" />
             </div>
             <div>
               <p className="text-xs font-bold">Renaissance Modern</p>
@@ -184,7 +184,7 @@ export default function ArtworkDetail() {
           </div>
           <div className="flex-shrink-0 flex items-center space-x-4">
             <div className="w-16 h-16 bg-white p-1">
-              <img className="w-full h-full object-cover" src="/img/18.jpg" alt="Vector Flow 02" />
+              <img className="w-full h-full object-cover" src={`${import.meta.env.BASE_URL}img/18.jpg`} alt="Vector Flow 02" />
             </div>
             <div>
               <p className="text-xs font-bold">Vector Flow 02</p>
